@@ -1,6 +1,6 @@
 # MCP Phishing Response Demo
 
-Short, compelling demo that mirrors the webinar scenario: a SOC agent triages a phishing report and triggers containment via an MCP tool backed by an Orkes Conductor workflow.
+Demo mocking an SOC agent that triages a phishing report and triggers containment via an MCP tool backed by an Orkes Conductor workflow.
 
 ## What’s included
 - `mcp-workbench-orkes-demo.ipynb` — end-to-end notebook:
@@ -48,5 +48,5 @@ Short, compelling demo that mirrors the webinar scenario: a SOC agent triages a 
 - List tools → run phishing response tool with the sample input
 
 ## Notes
-- The notebook uses only stdlib HTTP calls (no extra Python deps).
+- The notebook uses only stdlib HTTP calls
 - Output includes: `caseId`, `status`, `severity`, `ioc`, `summary`.
